@@ -10,7 +10,6 @@ import {
   Menu,
   X,
   ArrowRight,
-  Play,
   Sparkles,
   BarChart,
   Target,
@@ -210,7 +209,7 @@ export const Home = () => {
               The Problems We Solve
             </h2>
             <p className="mt-4 text-lg text-white/80">
-              Job seekers and employers face significant challenges in today's
+              Job seekers and employers face significant challenges in today&apos;s
               hiring landscape
             </p>
           </motion.div>
