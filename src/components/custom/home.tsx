@@ -149,10 +149,12 @@ export const Home = () => {
             today for exclusive early access and special launch benefits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button size="lg" className="rounded-full px-8 py-6 text-lg">
-              Register for Beta
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link href={"/register"}>
+              <Button size="lg" className="rounded-full px-8 py-6 text-lg">
+                Register for Beta
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
@@ -209,8 +211,8 @@ export const Home = () => {
               The Problems We Solve
             </h2>
             <p className="mt-4 text-lg text-white/80">
-              Job seekers and employers face significant challenges in today&apos;s
-              hiring landscape
+              Job seekers and employers face significant challenges in
+              today&apos;s hiring landscape
             </p>
           </motion.div>
 

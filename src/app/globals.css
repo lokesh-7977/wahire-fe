@@ -92,3 +92,12 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
